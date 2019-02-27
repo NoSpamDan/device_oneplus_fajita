@@ -1,6 +1,2 @@
 [
-  {
-    "repository": "device_oneplus_sdm845-common",
-    "target_path": "device/oneplus/sdm845-common"
-  }
 ]
