@@ -21,7 +21,7 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 # Inherit from fajita device
 $(call inherit-product, device/oneplus/fajita/device.mk)
 
-# Inherit Carbon product configuration
+# Inherit Candy product configuration
 $(call inherit-product, vendor/candy/config/common_full_phone.mk)
 
 PRODUCT_NAME := candy_fajita
@@ -36,7 +36,7 @@ TARGET_VENDOR_PRODUCT_NAME := OnePlus6T
 TARGET_VENDOR_DEVICE_NAME := OnePlus6T
 
 PRODUCT_PROPERTY_OVERRIDES += \
-    ro.carbon.maintainer="Myself5"
+    ro.candy.maintainer="NoSpamDan"
 
 PRODUCT_BUILD_PROP_OVERRIDES += \
     TARGET_DEVICE=OnePlus6T \
