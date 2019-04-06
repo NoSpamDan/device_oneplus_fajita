@@ -18,4 +18,5 @@
 <resources>
     <!-- Remove custom extra padding for the QS icons and statusbar date -->
     <dimen name="qs_items_padding">0dp</dimen>
+    <dimen name="status_bar_extra_padding">10dp</dimen>
 </resources>
