@@ -27,7 +27,7 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/product_launched_with_p.mk)
 # Overlays
 DEVICE_PACKAGE_OVERLAYS += \
     $(LOCAL_PATH)/overlay \
-    $(LOCAL_PATH)/overlay-aosip
+    $(LOCAL_PATH)/overlay-candy
 
 # Device uses high-density artwork where available
 PRODUCT_AAPT_CONFIG := normal
@@ -43,6 +43,3 @@ PRODUCT_PACKAGES += \
 
 # Inherit from oneplus sdm845-common
 $(call inherit-product, device/oneplus/sdm845-common/common.mk)
-
-# Inherit from vendor blobs
-#$(call inherit-product, vendor/oneplus/fajita/fajita-vendor.mk)
