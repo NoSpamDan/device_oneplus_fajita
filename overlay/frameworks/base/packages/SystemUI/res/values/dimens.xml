@@ -25,5 +25,8 @@
     <dimen name="config_customCutoutBottomWidth">240.0px</dimen>
     <dimen name="config_customCutoutBottomHeight">240.0px</dimen>
 
+    <!-- Animation offset for FOD -->
+    <dimen name="fod_animation_offset">10dp</dimen>
+
 </resources>
 
