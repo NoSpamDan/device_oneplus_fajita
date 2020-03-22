@@ -24,6 +24,9 @@ $(call inherit-product, device/oneplus/fajita/device.mk)
 # Inherit some common Candy stuff.
 $(call inherit-product, vendor/candy/config/common_full_phone.mk)
 
+# Inherit pixelgapps
+$(call inherit-product-if-exists, vendor/pixelgapps/pixel-gapps.mk)
+
 PRODUCT_NAME := candy_fajita
 PRODUCT_DEVICE := fajita
 PRODUCT_MANUFACTURER := OnePlus
