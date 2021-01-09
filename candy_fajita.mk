@@ -22,7 +22,8 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 $(call inherit-product, device/oneplus/fajita/device.mk)
 
 # Inherit some common Candy stuff.
-$(call inherit-product, vendor/candy/config/common_full_phone.mk)
+$(call inherit-product, vendor/candy/config/common.mk)
+$(call inherit-product, vendor/candy/config/gsm.mk)
 
 PRODUCT_NAME := candy_fajita
 PRODUCT_DEVICE := fajita
@@ -37,4 +38,4 @@ PRODUCT_BUILD_PROP_OVERRIDES += \
     PRODUCT_NAME=OnePlus6T \
     PRIVATE_BUILD_DESC="OnePlus6T-user 9 PKQ1.180716.001 1909112330 release-keys"
 
-BUILD_FINGERPRINT := OnePlus/OnePlus6T/OnePlus6T:9/PKQ1.180716.001/1909112330:user/release-keys
+BUILD_FINGERPRINT := OnePlus/OnePlus6/OnePlus6:8.1.0/OPM1.171019.011/06140300:user/release-keys
